@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input type</title>
+</head>
+<body> 
+<header>
+    <h1>Input types</h1>
+</header>
+    <div>
+        <form>
+            <div>
+                <label>
+                    Name
+                </label>
+                <input name="username" required minlength="5" maxlength="10" size="50" title="Login user name">
+
+            </div>
+            <div>
+                <label>
+                    Password
+                </label>
+                <input id="password" type="password" pattern="|A-Za-Z*|*|0-9||A-Za-z|*" maxlength="8" title="password must begin with letter and contain one digit and have at least 8 char">
+
+            </div>
+            <div>
+                <label>
+                    Email id
+                </label>
+                <input title="enter email" id="email" type="email">
+            </div>
+            <div>
+                <label>DOB</label>
+                <input title="enter your date of birth" id="date" type="date">
+                <input title="enter date and time" id="datetime-local" type="datetime-local">
+                <input title="enter time here" id="time" type="time">
+                <input title="enter the week of the year" id="week" type="week">
+                <input title="status" id="color" type="color">
+            </div>
+            <div>
+                <label>
+                    Photo
+                </label>
+                <input placeholder="file" id="file" tyep="file" accept="audio/*,video/*,image/*">
+            </div>
+            <div>
+                <label>Years of Experience</label>
+                <input title="status" id="year" type="number" min="1" max="40" step="1" maxlength="3">
+
+            </div>
+            <div>
+                <label>
+                    Range
+                </label>
+                <input id="search" type="search" placeholder="Search your skill">
+
+            </div>
+            <div>
+                <label>
+                    Telephone
+                </label>
+                <input type="tel" name="telid" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="123-456-678">
+            </div>
+            <div>
+                <label>
+                    Hobbies
+                </label>
+                <input title="hobby" type="checkbox" checked="true" name="items" value="Reading">Reading</input>
+                <input title="option1" type="checkbox"  name="items" value="Music">Music</input>
+
+                <input title="option" type="checkbox"  name="items" value="Dance">Dance</input>
+
+                
+            </div>
+            <div>
+                <label>Hidden content</label>
+                <input id="hid" type="hidden" value="ice creams">
+            </div>
+            <div>
+                <label>Url</label>
+                <input type="enter url" id="url" type="url">
+            </div>
+            <div>
+                <label>
+                    Comments
+                </label>
+                <textarea title="enter your comments here" id="comment" cols="50" rows="5">comments</textarea>
+            </div>
+            <div>
+                <label>Selec course</label>
+                <select name="course list" title="Select a course">
+                    <option selected>--Select a value--</option>
+                    <option>HTML</option>
+                    <option>Java</option>
+                    <option>Boostrap</option>
+                    <optgroup label="database">
+                    <option>SQL</option>
+                    <option>Oracle</option>
+                    <option>Mysql</option>
+                </optgroup>
+                </select>
+            </div>
+            
+            <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+                <input type="image" alt="close" name="Close" width="25" height="25" src=",,//,,/images/close.jpg">
+            </div>
+        </div>
+        </form>
+    </div>
+    
+</body>
+</html>
