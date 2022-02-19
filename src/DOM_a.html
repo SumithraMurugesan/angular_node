@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page for style</title>
+    <style>
+        .green{
+            background-color: green;
+        }
+        li.yellow{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="div01" class="green">
+        Hello world </div>
+        <p>the world is beautiful</p>
+        <h1></h1>
+        <ul>
+            <li class="green">list</li>
+            <li>list2</li>
+            <li class="yellow">list3</li>
+            <li>
+                list4
+            </li>
+        </ul>
+        <p><img alt="dom model"
+             src="https://upload.wikimedia.org/wikipedia/commons/5/5a/DOM-model.svg"> </p>
+    <p>
+        <input title="enter your name" type="text" id="txtName" value="sumithra"> </p>
+
+<script>
+   /* document.getElementById("div01").innerHTML="Hello world Updates"
+    console.dir(document);
+    console.log(document.URL);
+    console.dir(document.children[0]);
+    console.dir(document.children[0].children[1]);
+    console.dir(document.children[0].children[1].childNodes);*/
+    
+    /*document.getElementById("div01").innerHTML="hellowworld updated";
+        var v_name=document.getElementById("txtName");
+        console.log(v_name.value);
+
+        var listItems=document.getElementsByTagName("li");
+         for(var i=0;i<listItems.length;i++)
+         {
+         listItems[i].innerHTML="item"+(i+1);
+
+         }
+         listItems[2].innerHTML="updates text";
+         var imglist=document.getElementsByTagName('img');
+         imglist[0].src="../images/nazriya.jpg";*/
+
+
+         var listItems=document.getElementsByClassName('green')
+         for(var i=0;i<listItems.length;i++)
+         {
+             listItems[i].innerHTML="green color text updated";
+         }
+         console.dir(document.querySelector('li'));
+         console.dir(document.querySelectorAll('li'));
+         console.dir(document.querySelector('ul>li'));
+         console.dir(document.querySelector('div'));
+         console.dir(document.querySelector('#div01'));
+         console.dir(document.querySelector('.green'));
+         console.dir(document.querySelectorAll('div'));
+
+document.getElementById("div01").style.color='purple'
+console.dir(document.getElementsByClassName('green'));
+
+
+const arr=[1,2,3,4,5,6];
+        console.log(arr);
+        const strArr=JSON.stringify(arr);
+        console.log(strArr);
+        const myobj={
+            firstname:'myfirstname',
+            lastname:'mylastname'
+        };
+        const strjson=JSON.stringify(myobj);
+        console.log(strjson);
+
+        var javastudentlist={
+            "studentlist":arr[
+                {"name":"ajith","age":"22"},
+                {"name":"vijay","age":"22"},
+                {"name":"Tom","age":"22"} ]
+        };
+        console.log(javastudentlist);
+
+        const arr1=JSON.parse(strjson);
+        console.log(arr1);
+        //const obj1=JSON.parse(strjson);
+        //console.log(obj1);
+
+        function myfun(){
+            document.getElementById("div01").innerText=document.getElementById("txtName").value;
+            document.getElementById("div01").style.color='purple'
+            var output=document.getElementById('div01');
+            output.style.backgroundColor="red";
+            output.style.border="3px solid orange";
+        }
+
+
+    
+
+</script></body>
+</html>

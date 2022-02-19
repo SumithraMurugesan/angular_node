@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <div id="div01">hello world</div>
+    <input title="enter your name" type="text" id="txtName" value="madurai" onchange="myfun()">    </p>
+    
+    <script>
+        const arr=[1,2,3,4,5,6];
+        console.log(arr);
+        const strArr=JSON.stringify(arr);
+        console.log(strArr);
+        const myobj={
+            firstname:'myfirstname',
+            lastname:'mylastname'
+        };
+        const strjson=JSON.stringify(myobj);
+        console.log(strjson);
+
+        var javastudentlist={
+            "studentlist":arr[
+                {"name":"ajith","age":"22"},
+                {"name":"vijay","age":"22"},
+                {"name":"Tom","age":"22"} ]
+        };
+        console.log(javastudentlist);
+
+        const arr1=JSON.parse(strjson);
+        console.log(arr1);
+        //const obj1=JSON.parse(strjson);
+        //console.log(obj1);
+
+        function myfun(){
+            document.getElementById("div01").innerText=document.getElementById("txtName").value;
+            document.getElementById("div01").style.color='purple'
+            var output=document.getElementById('div01');
+            output.style.backgroundColor="red";
+            output.style.border="3px solid orange";
+        }
+
+
+    </script>
+</body>
+</html>
