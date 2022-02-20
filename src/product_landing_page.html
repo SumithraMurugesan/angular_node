@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product landing page</title>
+<style>
+
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0px;
+  background:white;
+  
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow:hidden;
+  background-color:white;
+  text-underline-offset: green;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height:50px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 16px 14px;
+  text-decoration: none;
+  
+}
+
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:green;
+  color: white;
+  
+}
+
+.photo :hover{
+  color: seagreen;
+  border-style: groove;
+  border-color: grey;
+  padding: auto;
+
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  color: white;
+  text-decoration-color: white;
+  background:grey;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+.text{
+  position: absolute;
+  top: 40%;
+  left: 250px;
+  font-size: 70px;
+  transform: translate(-50%, -50%);
+}
+
+.text2{
+  position: absolute;
+  top: 65%;
+  left: 350px;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+}
+
+.images {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 ;
+            padding: 30px;
+        }
+  
+        .photo {
+            max-width: 31.333%;
+            padding: 0 10px;
+            height: 240px;
+        }
+  
+        .photo img {
+            width: 100%;
+            height: 100%;
+        }
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="./product_landing_page.html" style="float: left;">Polaroid Camera</a>
+  <a href="./accessories.html">Accessories</a>
+  <a href="./about.html">About</a>
+  <a href="./instant_camera.html">Instant camera</a>
+  <a href="./What'sNew.html">What's New</a>
+</div>
+
+<div class="main">
+    <img src="../images/pc1.jpg" style="width:100%">
+    <h1 class="text">Polaroid<br>Accessories </h1>
+    <p class="text2">Up your photography game with accessories <br>for your camera, photos, and you. </p>
+ </div>
+<div>
+  <h2 style="font-size: 40px;">Pretty popular</h2>
+  <p style="font-size: 25px;">A selection of our best-selling bundles.</p>
+</div>
+
+<div class="images">
+  <div class="photo">
+      <img src="../images/p1.png" alt="photo" />
+  </div>
+
+  <div class="photo">
+      <img src="../images/p2.png" alt="photo" />
+  </div>
+    
+  <div class="photo">
+      <img src="../images/p3.png" alt="photo" />
+  </div>
+  <div class="photo">
+    <img src="../images/p4.png" alt="photo" />
+</div>
+</div>
+
+<div class="footer">
+  <h1>Polaroid Camera</h1>
+  <h3>About Us</h3> 
+  <h3>Contact Us</h3>
+  <h3>Gift Cards</h3>
+</div>
+
+
+</body>
+</html>
+
+
