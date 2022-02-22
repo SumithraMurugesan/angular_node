@@ -1,0 +1,15 @@
+a:link{
+    font-size: 35px;
+    text-decoration: none;
+    color: goldenrod;
+}
+a:visited{
+    color: aquamarine;
+}
+a:hover{
+    color: blue;
+}
+
+.dropdown-content a{
+    display: none;
+}
