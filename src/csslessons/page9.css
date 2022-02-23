@@ -4,10 +4,13 @@ a:link{
     color: goldenrod;
 }
 a:visited{
-    color: aquamarine;
+    color:green;
 }
 a:hover{
     color: blue;
+}
+a:active{
+    color: red;
 }
 
 .dropdown-content a{

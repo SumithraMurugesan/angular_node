@@ -7,23 +7,25 @@ h3{
     background-color: blue;
     color: white;
 }
-
+/*gruing of elements*/
 h1,h3{
     color:black;
 
 }
+
+ul li{
+    color:red;
+}
 /*selecting parent child*/
 ul>li{
-    color: black;
+    color: blue;
 }
-/*
-ul li{
-    color: brown;
-}
+
+
 li{
-    color:black;
+    color:green;
 }
-selecting parent element*/
+/*selecting parent element*/
 
 .item{
 color: pink;
