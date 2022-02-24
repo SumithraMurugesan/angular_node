@@ -1,0 +1,43 @@
+
+body{
+    font-size: 15px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+background-color: hsl(0, 0%, 100%);
+    
+
+
+}
+.container{
+    margin: 100px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(227, 230, 235);
+    box-shadow: 0px 10px 20px hsl(212, 45%, 89%);
+
+}
+.card{
+
+max-width: 350px;
+padding: 10px;
+margin: 100px auto;
+border-radius: 20px;
+box-shadow: 0px 10px 20px hsl(212, 45%, 89%);
+background-color: white;
+}
+img{
+    border-radius: 20px;
+}
+h1{
+    color:hsl(218, 44%, 22%)
+}
+P{
+color: hsl(220, 15%, 55%);
+}
+
+@media screen {
+    body{
+        min-width: 375px;
+    }
+    
+}
