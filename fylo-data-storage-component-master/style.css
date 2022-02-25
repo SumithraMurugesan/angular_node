@@ -91,6 +91,7 @@ html,body{
     margin-bottom: 10px;
     background-color: var(--background-color);
     border-radius: 10px;
+    padding:0.1em;
 }
  p{
             color: var(--Pale-Blue);
@@ -100,7 +101,7 @@ html,body{
 }
 .range{
     width: 342px;
-    height: 18px;
+    height: 16px;
     background-color:pink;
     border-radius: 10px;
 }
@@ -128,7 +129,7 @@ html,body{
 .dot{
     height: 15px;
     width: 12px;
-    margin-left: 328px;
+    margin-left: 329px;
     background-color: white;
     border-radius: 50%;
     
