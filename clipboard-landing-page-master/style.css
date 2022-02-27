@@ -1,0 +1,377 @@
+
+
+
+body{
+    min-height: 100vh;
+    background-color: white;
+    font-size: 18px;
+    max-width: 1440px;
+    margin:auto;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #9FABB2;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    overflow-x: hidden;
+    
+}
+
+.header-img{
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.header-logo{
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: 620px;
+    margin-right: auto;
+    margin-top: 126px;
+    
+}
+
+header{
+    text-align: center;
+    margin-top: 71px;
+}
+
+header h1{
+    font-size: 50px;
+    color:hsl(229, 57%, 11%);
+    opacity: 75%;
+    justify-content: space-between;
+    padding: 25px;
+
+}
+
+header p{
+    font-size: 23px;
+    color:hsl(229, 7%, 55%);
+    justify-content: space-between;
+    opacity: 70%;
+    padding-bottom:  50px;
+    line-height: 30px;
+}
+
+.btn{
+    margin-left: 400px;
+}
+.ios-btn button{
+    color: white;
+    display: inline-block;
+    background-color: rgb(55, 166, 152);
+    height: 58px;
+    border: hidden;
+    opacity: 70%;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(136, 219, 205, 0.514), 0 6px 20px 0 rgba(152, 224, 221, 0.19);
+
+    border-radius: 30px;
+    width: 225px;
+    
+}
+.mac-btn button{
+    color: white;
+    margin-left: 725px;
+    display: inline-block;
+    background-color:darkblue;
+    height: 58px;
+    font-size: 16px;
+    text-align: center;
+    opacity: 65%;
+    border-radius: 30px;
+    border: hidden;
+    width: 225px;
+    box-shadow: 0 8px 16px 0 rgba(117, 158, 206, 0.514), 0 6px 20px 0 rgba(163, 166, 207, 0.19);
+
+    
+}
+
+.second-section{
+    margin-top: 157px;
+    text-align: center;
+}
+.second-section h1{
+    font-size: 45px;
+    color:hsl(229, 57%, 11%);
+    opacity: 75%;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.second-section p{
+    font-size: 23px;
+    color:hsl(229, 7%, 55%);
+    justify-content: space-between;
+    opacity: 70%;
+    padding-bottom:  50px;
+    line-height: 30px;
+}
+
+.window-img{
+    float: left;
+    padding-right: 106px;
+
+}
+
+.window-section{
+    margin-top: 67px;
+    
+}
+
+
+.window-section h1{
+    color:hsl(229, 57%, 11%);
+    opacity: 70%;
+    font-size: 25px;
+    padding-bottom: 15px;
+    
+}
+
+.window-section p{
+
+    font-size: 20px;
+    color:hsl(229, 7%, 55%);
+    justify-content: space-between;
+    opacity: 70%;
+    line-height: 30px;
+    padding-bottom: 58px;
+
+}
+.mobile-section{
+
+    margin-top: 148px;
+    text-align: center;
+}
+
+.mobile-section h1{
+    font-size: 40px;
+    color:hsl(229, 57%, 11%);
+    opacity: 75%;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.mobile-section p{
+    font-size: 20px;
+    color:hsl(229, 7%, 55%);
+    justify-content: space-between;
+    opacity: 70%;
+    padding-bottom:  113px;
+    line-height: 30px;
+}
+
+.container-workflow{
+    text-align: center;
+}
+
+.container-workflow h1{
+    font-size: 40px;
+    color:hsl(229, 57%, 11%);
+    opacity: 75%;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.container-workflow p{
+    font-size: 20px;
+    color:hsl(229, 7%, 55%);
+    justify-content: space-between;
+    opacity: 70%;
+    padding-bottom:  113px;
+    line-height: 30px;
+}
+
+
+
+.blacklist{
+    float: left;
+    display: inline;
+    text-align: center;
+    margin-top: 17px;
+    margin-left:  100px;
+    height: 245px;
+    width: 345px;
+}
+
+.snip{
+    float: left;
+    display: inline;
+    margin-top: 17px;
+    text-align: center;
+    margin-left: 25px;
+    
+    height: 245px;
+    width: 345px;
+}
+.preview{
+    float: left;
+    display: inline;
+    margin-left: 25px;
+    margin-top: 17px;
+    text-align: center;
+    height: 245px;
+    width: 345px;
+}
+
+.box-container h2{
+
+    font-size: 23px;
+    color:hsl(229, 57%, 11%);
+    opacity: 80%;
+    padding: 25px;
+}
+
+.box-container p{
+
+    font-size: 18px;
+    margin: 0;
+    color:hsl(229, 7%, 55%);
+    opacity: 70%;
+    margin: 0;
+
+}
+
+.logos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em 0;
+}
+ .google{
+     margin-left: 100px;
+ }
+
+
+.logos img{
+    width: 90%;
+    margin: auto;
+}
+
+.appstore{
+text-align: center;    
+}
+
+
+.appstore h1{
+    font-size: 25px;
+    color:hsl(229, 57%, 11%);
+    opacity: 70%;
+    font-size: 25px;
+    padding-bottom: 15px;
+    
+}
+
+.appstore p{
+
+    font-size: 20px;
+    color:hsl(229, 7%, 55%);
+    justify-content: space-between;
+    opacity: 70%;
+    line-height: 30px;
+    padding-bottom: 58px;
+
+}
+
+
+.btn-bottom{
+    margin-left: 400px;
+}
+.ios-btn button{
+    color: white;
+    display: inline-block;
+    background-color: rgb(55, 166, 152);
+    height: 58px;
+    border: hidden;
+    opacity: 70%;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(136, 219, 205, 0.514), 0 6px 20px 0 rgba(152, 224, 221, 0.19);
+    float: left;
+
+    border-radius: 30px;
+    width: 225px;
+    
+}
+.mac-btn button{
+    color: white;
+    margin-left: 14px;
+    display: inline-block;
+    background-color:darkblue;
+    height: 58px;
+    font-size: 16px;
+    text-align: center;
+    opacity: 65%;
+    border-radius: 30px;
+    border: hidden;
+    width: 225px;
+    margin-bottom: 7rem;
+    box-shadow: 0 8px 16px 0 rgba(117, 158, 206, 0.514), 0 6px 20px 0 rgba(163, 166, 207, 0.19);
+
+    
+}
+
+footer{
+    background-color: #F5F6F8;
+    padding: 2.7em 0;
+    
+}
+footer .container{
+    display: flex;
+    align-items: center;
+}
+.footer-logo{
+    flex: 0 0 18%;
+}
+.social-icons{
+    flex : 0 0 14%;
+}
+.footer-logo img{
+    width: 60px;
+    margin-left: 100px;
+}
+.footer-menu{
+    flex:1;
+    display: flex;
+}
+.f-menu{
+    width: 25%;
+}
+.f-menu a{
+    display: block;
+    line-height: 2em;
+    text-decoration: none;
+    color: #000;
+    opacity: 70%;
+}
+
+.social-icons a{
+    display: block;
+    float: right;
+    width:33.33%;
+    text-align: right;
+}
+.social-icons i:hover{
+    color: hsl(171, 66%, 44%);
+}
+.f-menu a:hover{
+    color:hsl(171, 66%, 44%);
+}
+.attribution{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 12px;
+}
