@@ -1,0 +1,87 @@
+body {
+    background-color: #1AA0AC;
+    background-image: url(../profile-card-component-main/images/bg-pattern-top.svg), 
+    url(../profile-card-component-main/images/bg-pattern-bottom.svg);
+    background-position: right 45vw bottom 45vh, 45vw 45vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+    overflow: hidden;
+  }
+  
+  .attribution { 
+    font-size: 11px; text-align: center; 
+    position: relative;
+    top: 5px; 
+  }
+  
+  .attribution a {
+     color: hsl(228, 45%, 44%); 
+  }
+    
+  .container {
+    color: rgb(7, 0, 0);
+    background-color: #faf9f9;
+    border-radius: 10px;
+    width: 320px;
+    height: 350px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 0;
+  } 
+  
+  #background {
+    height: 140px;
+    width: 320px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: aqua;
+    background-image: url("../profile-card-component-main/images/bg-pattern-card.svg");
+  }
+  
+  #tekst-persoon {
+    height: 100px;
+    position: relative;
+    top: 64%; 
+  }
+  
+  #tekst-volgers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 60%; 
+  }
+  
+  .numberTekst {
+  font-weight: 600;
+  }
+  
+  .onderTekst {
+    font-weight: 200;
+    font-size: 8.5px;
+    letter-spacing: 2px;
+    position: relative;
+    top: -5px; 
+  }
+  
+  .victor {
+    font-weight: 600
+  }
+  
+  .city {
+    font-size: 13px;
+    top: 3px;
+  }
+  
+  .image {
+    position: relative;
+    top: 64%; 
+    border-radius: 50%;
+    border: solid 3px white;
+  }

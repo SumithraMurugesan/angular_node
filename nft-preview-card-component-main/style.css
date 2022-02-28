@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+:root {
+    /* main colors */
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    /* neutral colors */
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+    --white: #fff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.8rem;
+    background: var(--main-bg);
+    display: grid;
+    place-content: center;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nft-card {
+    padding: 2.2em 0;
+    min-height: 100vh;
+    max-width: 480px;
+}
+
+.nft-container, .attribution {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nft-container {
+    background: var(--card-bg);
+    padding: 1.2em;
+    border-radius: 10px;
+}
+
+.nft-container, .card-img {
+    border-radius: 10px;
+}
+
+.card-title {
+    color: var(--white);
+    margin: .7em 0; 
+}
+
+.card-title:hover, .white-text:hover {
+    color: var(--cyan);
+}
+
+h1 {
+    margin: .7em 0;  
+}
+
+h1 + p {
+    line-height: 1.5;
+    margin-bottom: .7em;
+}
+
+p, .time {
+    color: var(--soft-blue);
+}
+
+.value {
+    color: cyan;
+}
+
+.white-text {
+    color: var(--white);
+}
+
+.card-info-container {
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1em;
+    border-bottom: 1px solid var(--line-color);
+}
+
+.card-info-container img {
+    margin-right: .5em;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creator-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.avatar-img {
+    height: 40px;
+    width: 40px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    margin-right: 1.5em;
+}
+
+.attribution, a {
+    color: var(--white);
+}
