@@ -1,7 +1,7 @@
 body{
  margin: 0%;
  padding: 0%;
- background-image: url(../angular_node/images/bg2.jpg);
+ background-image: url(./images/bg2.jpg);
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
@@ -20,6 +20,11 @@ h1{
     font-family: 'Times New Roman', Times, serif;
 
 }
+h1:hover{
+  font-size: 70px;
+
+}
+
 p{
     text-align: center;
     color: white;
