@@ -1,15 +1,15 @@
 body {
+    align-items: center;
     background-color: #1AA0AC;
     background-image: url(../profile-card-component-main/images/bg-pattern-top.svg), 
     url(../profile-card-component-main/images/bg-pattern-bottom.svg);
     background-position: right 45vw bottom 45vh, 45vw 45vh;
     background-repeat: no-repeat;
     display: flex;
+    font-family: 'Nunito Sans', sans-serif;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
-    font-family: 'Nunito Sans', sans-serif;
     overflow: hidden;
   }
   
@@ -24,23 +24,23 @@ body {
   }
     
   .container {
-    color: rgb(7, 0, 0);
     background-color: #faf9f9;
     border-radius: 10px;
-    width: 320px;
-    height: 350px;
+    color: rgb(7, 0, 0);
     display: flex;
-    text-align: center;
     flex-direction: column;
+    height: 350px;
     margin: 0;
+    text-align: center;
+    width: 320px;
   } 
   
   #background {
-    height: 140px;
-    width: 320px;
-    border-radius: 10px 10px 0px 0px;
     background-color: aqua;
     background-image: url("../profile-card-component-main/images/bg-pattern-card.svg");
+    border-radius: 10px 10px 0px 0px;
+    height: 140px;
+    width: 320px;
   }
   
   #tekst-persoon {
@@ -50,10 +50,10 @@ body {
   }
   
   #tekst-volgers {
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
     position: relative;
     top: 60%; 
   }
@@ -80,8 +80,8 @@ body {
   }
   
   .image {
-    position: relative;
-    top: 64%; 
     border-radius: 50%;
     border: solid 3px white;
+    position: relative;
+    top: 64%; 
   }

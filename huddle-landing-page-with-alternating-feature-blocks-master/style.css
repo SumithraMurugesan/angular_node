@@ -118,22 +118,22 @@ footer ul li {
 }
 
 footer .social-media {
-	display: flex;
 	align-items: center;
+	display: flex;
 	justify-content: center;
 }
 
 footer .circle {
+	align-items: center;
 	border: 1px solid #fff;
 	border-radius: 50%;
 	color: #fff;
 	display: inline-flex;
-	align-items: center;
 	justify-content: center;
-	margin-right: 10px;
 	height: 40px;
-	width: 40px;
+	margin-right: 10px;
 	text-decoration: none;
+	width: 40px;
 }
 
 footer p {

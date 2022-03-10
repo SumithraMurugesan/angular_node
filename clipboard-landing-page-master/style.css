@@ -2,19 +2,19 @@
 
 
 body{
-    min-height: 100vh;
     background-color: white;
-    font-size: 18px;
-    max-width: 1440px;
-    margin:auto;
-    font-family: 'Bai Jamjuree', sans-serif;
     color: #9FABB2;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    max-width: 1440px;
+    min-height: 100vh;
+    margin:auto;
 }
 
 *{
+    box-sizing: border-box;
     margin:0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html,body{
@@ -23,9 +23,9 @@ html,body{
 }
 
 .header-img{
-    position: absolute;
     background-repeat: no-repeat;
     height: 100%;
+    position: absolute;
     width: 100%;
 
 }
@@ -41,58 +41,56 @@ html,body{
 }
 
 header{
-    text-align: center;
     margin-top: 71px;
+    text-align: center;
 }
 
 header h1{
-    font-size: 50px;
     color:hsl(229, 57%, 11%);
-    opacity: 75%;
+    font-size: 50px;
     justify-content: space-between;
+    opacity: 75%;
     padding: 25px;
 
 }
 
 header p{
-    font-size: 23px;
     color:hsl(229, 7%, 55%);
+    font-size: 23px;
     justify-content: space-between;
+    line-height: 30px;
     opacity: 70%;
     padding-bottom:  50px;
-    line-height: 30px;
 }
 
 .btn{
     margin-left: 400px;
 }
 .ios-btn button{
+    background-color: rgb(55, 166, 152);
+    border-radius: 30px;
+    border: hidden;
+    box-shadow: 0 8px 16px 0 rgba(136, 219, 205, 0.514), 0 6px 20px 0 rgba(152, 224, 221, 0.19);
     color: white;
     display: inline-block;
-    background-color: rgb(55, 166, 152);
-    height: 58px;
-    border: hidden;
-    opacity: 70%;
     font-size: 16px;
-    box-shadow: 0 8px 16px 0 rgba(136, 219, 205, 0.514), 0 6px 20px 0 rgba(152, 224, 221, 0.19);
-
-    border-radius: 30px;
+    height: 58px;
+    opacity: 70%;
     width: 225px;
-    
 }
 .mac-btn button{
-    color: white;
-    margin-left: 725px;
-    display: inline-block;
     background-color:darkblue;
-    height: 58px;
-    font-size: 16px;
-    text-align: center;
-    opacity: 65%;
     border-radius: 30px;
     border: hidden;
-    width: 225px;
     box-shadow: 0 8px 16px 0 rgba(117, 158, 206, 0.514), 0 6px 20px 0 rgba(163, 166, 207, 0.19);
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    height: 58px;
+    margin-left: 725px;
+    opacity: 65%;
+    text-align: center;
+    width: 225px;
 
     
 }
@@ -102,20 +100,20 @@ header p{
     text-align: center;
 }
 .second-section h1{
-    font-size: 45px;
     color:hsl(229, 57%, 11%);
-    opacity: 75%;
+    font-size: 45px;
     justify-content: space-between;
+    opacity: 75%;
     padding: 25px;
 }
 
 .second-section p{
-    font-size: 23px;
     color:hsl(229, 7%, 55%);
+    font-size: 23px;
     justify-content: space-between;
+    line-height: 30px;
     opacity: 70%;
     padding-bottom:  50px;
-    line-height: 30px;
 }
 
 .window-img{
@@ -132,19 +130,19 @@ header p{
 
 .window-section h1{
     color:hsl(229, 57%, 11%);
-    opacity: 70%;
     font-size: 25px;
+    opacity: 70%;
     padding-bottom: 15px;
     
 }
 
 .window-section p{
 
-    font-size: 20px;
     color:hsl(229, 7%, 55%);
+    font-size: 20px;
     justify-content: space-between;
-    opacity: 70%;
     line-height: 30px;
+    opacity: 70%;
     padding-bottom: 58px;
 
 }
@@ -155,20 +153,20 @@ header p{
 }
 
 .mobile-section h1{
-    font-size: 40px;
     color:hsl(229, 57%, 11%);
-    opacity: 75%;
     justify-content: space-between;
+    font-size: 40px;
+    opacity: 75%;
     padding: 25px;
 }
 
 .mobile-section p{
-    font-size: 20px;
     color:hsl(229, 7%, 55%);
+    font-size: 20px;
     justify-content: space-between;
+    line-height: 30px;
     opacity: 70%;
     padding-bottom:  113px;
-    line-height: 30px;
 }
 
 .container-workflow{
@@ -176,79 +174,76 @@ header p{
 }
 
 .container-workflow h1{
-    font-size: 40px;
     color:hsl(229, 57%, 11%);
-    opacity: 75%;
+    font-size: 40px;
     justify-content: space-between;
+    opacity: 75%;
     padding: 25px;
 }
 
 .container-workflow p{
-    font-size: 20px;
     color:hsl(229, 7%, 55%);
+    font-size: 20px;
     justify-content: space-between;
+    line-height: 30px;
     opacity: 70%;
     padding-bottom:  113px;
-    line-height: 30px;
 }
 
 
 
 .blacklist{
-    float: left;
     display: inline;
-    text-align: center;
+    float: left;
+    height: 245px;
     margin-top: 17px;
     margin-left:  100px;
-    height: 245px;
+    text-align: center;
     width: 345px;
 }
 
 .snip{
-    float: left;
     display: inline;
+    float: left;
     margin-top: 17px;
-    text-align: center;
     margin-left: 25px;
-    
     height: 245px;
+    text-align: center;
     width: 345px;
 }
 .preview{
-    float: left;
     display: inline;
+    float: left;
+    height: 245px;
     margin-left: 25px;
     margin-top: 17px;
     text-align: center;
-    height: 245px;
     width: 345px;
 }
 
 .box-container h2{
 
-    font-size: 23px;
     color:hsl(229, 57%, 11%);
+    font-size: 23px;
     opacity: 80%;
     padding: 25px;
 }
 
 .box-container p{
-
+    color:hsl(229, 7%, 55%);
     font-size: 18px;
     margin: 0;
-    color:hsl(229, 7%, 55%);
     opacity: 70%;
-    margin: 0;
-
 }
 
 .logos{
-    width: 80%;
-    margin: auto;
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin: auto;
     padding: 5em 0;
+    width: 80%;
+
 }
  .google{
      margin-left: 100px;
@@ -256,8 +251,8 @@ header p{
 
 
 .logos img{
-    width: 90%;
     margin: auto;
+    width: 90%;
 }
 
 .appstore{
@@ -266,22 +261,21 @@ text-align: center;
 
 
 .appstore h1{
-    font-size: 25px;
     color:hsl(229, 57%, 11%);
-    opacity: 70%;
     font-size: 25px;
+    opacity: 70%;
     padding-bottom: 15px;
     
 }
 
 .appstore p{
 
-    font-size: 20px;
     color:hsl(229, 7%, 55%);
+    font-size: 20px;
     justify-content: space-between;
-    opacity: 70%;
     line-height: 30px;
     padding-bottom: 58px;
+    opacity: 70%;
 
 }
 
@@ -290,34 +284,33 @@ text-align: center;
     margin-left: 400px;
 }
 .ios-btn button{
+    background-color: rgb(55, 166, 152);
+    border-radius: 30px;
+    border: hidden;
+    box-shadow: 0 8px 16px 0 rgba(136, 219, 205, 0.514), 0 6px 20px 0 rgba(152, 224, 221, 0.19);
     color: white;
     display: inline-block;
-    background-color: rgb(55, 166, 152);
-    height: 58px;
-    border: hidden;
-    opacity: 70%;
     font-size: 16px;
-    box-shadow: 0 8px 16px 0 rgba(136, 219, 205, 0.514), 0 6px 20px 0 rgba(152, 224, 221, 0.19);
     float: left;
-
-    border-radius: 30px;
+    height: 58px;
+    opacity: 70%;
     width: 225px;
     
 }
 .mac-btn button{
-    color: white;
-    margin-left: 14px;
-    display: inline-block;
     background-color:darkblue;
-    height: 58px;
-    font-size: 16px;
-    text-align: center;
-    opacity: 65%;
     border-radius: 30px;
     border: hidden;
-    width: 225px;
-    margin-bottom: 7rem;
     box-shadow: 0 8px 16px 0 rgba(117, 158, 206, 0.514), 0 6px 20px 0 rgba(163, 166, 207, 0.19);
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    height: 58px;
+    margin-bottom: 7rem;
+    margin-left: 14px;
+    text-align: center;
+    opacity: 65%;
+    width: 225px;
 
     
 }
@@ -328,8 +321,8 @@ footer{
     
 }
 footer .container{
-    display: flex;
     align-items: center;
+    display: flex;
 }
 .footer-logo{
     flex: 0 0 18%;
@@ -338,29 +331,30 @@ footer .container{
     flex : 0 0 14%;
 }
 .footer-logo img{
-    width: 60px;
     margin-left: 100px;
+    width: 60px;
 }
 .footer-menu{
-    flex:1;
     display: flex;
+    flex:1;
+  
 }
 .f-menu{
     width: 25%;
 }
 .f-menu a{
+    color: #000;
     display: block;
     line-height: 2em;
-    text-decoration: none;
-    color: #000;
     opacity: 70%;
+    text-decoration: none;
 }
 
 .social-icons a{
     display: block;
     float: right;
-    width:33.33%;
     text-align: right;
+    width:33.33%;
 }
 .social-icons i:hover{
     color: hsl(171, 66%, 44%);
@@ -369,9 +363,12 @@ footer .container{
     color:hsl(171, 66%, 44%);
 }
 .attribution{
-    width: 80%;
-    text-align: center;
-    margin: auto;
     display: block;
     font-size: 12px;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+   
+ 
+    
 }

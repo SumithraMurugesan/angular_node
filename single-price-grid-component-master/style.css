@@ -4,27 +4,27 @@ html {
 	font-family: 'karla', sans-serif;
 }
 * {
+	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	box-sizing: border-box;
 }
 section {
+	align-items: center;
+	background-color: hsl(204, 43%, 93%);
+	display: flex;
+	justify-content: center;
+	padding: 100px 30px;
 	min-height: 100vh;
 	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: hsl(204, 43%, 93%);
-	padding: 100px 30px;
 }
 .container {
+	box-shadow: 0px 0px 14px 1px #00000024;
+	border-radius: 8px;
 	display: grid;
 	grid-template-columns: 100%;
 	max-width: 550px;
 	margin: 0 auto;
-	border-radius: 8px;
 	overflow: hidden;
-	box-shadow: 0px 0px 14px 1px #00000024;
 }
 .item {
 	padding: 30px;
@@ -68,18 +68,18 @@ section {
 	font-weight: 600;
 }
 .item-2 a {
+	background-color: hsl(71, 73%, 54%);
+	box-shadow: 0px 4px 10px 1px #00000033;
+	border-radius: 8px;
+	color: white;
+	display: inline-block;
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-decoration: none;
+	margin-top: 30px;
+	padding: 15px;
 	text-align: center;
 	width: 100%;
-	padding: 15px;
-	border-radius: 8px;
-	display: inline-block;
-	background-color: hsl(71, 73%, 54%);
-	color: white;
-	text-decoration: none;
-	font-size: 1.2rem;
-	margin-top: 30px;
-	font-weight: 700;
-	box-shadow: 0px 4px 10px 1px #00000033;
 }
 .item-3 {
 	background-color: #4abebd;

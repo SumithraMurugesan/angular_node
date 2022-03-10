@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
 
 :root{
-    --Gradient:(hsl(6, 100%, 80%),hsl(335, 100%, 65%));
-    --Pale-Blue: hsl(243, 100%, 93%);
-    --Grayish-Blue: hsl(229, 7%, 55%);
-    --Dark-Blue: hsl(228, 56%, 26%);
     --background-color: hsl(229, 57%, 11%);
+    --Dark-Blue: hsl(228, 56%, 26%);
+    --Gradient:(hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+    --Grayish-Blue: hsl(229, 7%, 55%);
+    --Pale-Blue: hsl(243, 100%, 93%);
 }
 
 
@@ -14,22 +14,22 @@
 
 
 body{
-    min-height: 100vh;
     background-color:var(--background-color);
     background-image: url(..//fylo-data-storage-component-master/images/bg-desktop.png);
     background-repeat: no-repeat;
     background-position-y: 378px;
-    width: 100%;
-    height: 100%;
-    overflow-y: scroll;
     font-size: 13px;
+    height: 100%;
+    min-height: 100vh;
+    overflow-y: scroll;
     text-align: left;
+    width: 100%;
 }
 
 *{
-    margin:0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 0;
+    margin:0;
 }
 
 html,body{
@@ -37,17 +37,15 @@ html,body{
 }
 
 .logo-container{
-    position: relative;
+    background-color: var(--Dark-Blue);
+    border-radius: 10px 100px 10px 10px;
     float: left;
     height:205px;
-    width: 352px;
-    background-color: var(--Dark-Blue);
     margin-top:288px;
     margin-left: 260px;
-    border-radius: 10px 100px 10px 10px;
     overflow: hidden; 
-    
-
+    position: relative;
+    width: 352px;
 }
 .logo-img{
     margin-left: 35px;
@@ -56,42 +54,41 @@ html,body{
 
 
 .folder-container img{
-        margin-left: 38px;
-        margin-top: 34px;
-        height: 46px;
-        padding: 9px;
-         width: 50px;
-        border-radius: 10px;
-        background-color: var(--background-color);
-        background-position: center;
+    background-color: var(--background-color);
+    background-position: center;
+    border-radius: 10px;
+    height: 46px;
+    margin-left: 38px;
+    margin-top: 34px;
+    padding: 9px;
+    width: 50px;
 }
 
 .range-container{
-    margin-left: 25px;
-    width:557px ;
-    height: 158px;
     background-color: var(--Dark-Blue);
-    margin-top:335px;
     border-radius: 10px;
+    height: 158px;
+    margin-left: 25px;
+    margin-top:335px;
     margin-left: 642px;
+    width:557px ;
 }
 .text{
+    color: hsl(243, 100%, 93%);
+    font-size: 14px;
+    font-weight: 200;
     margin-left: 35px;
     padding-top: 40px;
-    font-size: 14px;
-     color: hsl(243, 100%, 93%);
-        font-size: 14px;
-        font-weight: 200;
 }
 .range-box{
-    width: 458px;
+    background-color: var(--background-color);
+    border-radius: 10px;
     height: 18px;
     margin-left: 35px;
     margin-top:15px;
     margin-bottom: 10px;
-    background-color: var(--background-color);
-    border-radius: 10px;
     padding:0.1em;
+    width: 458px;
 }
  p{
             color: var(--Pale-Blue);
@@ -100,29 +97,29 @@ html,body{
             
 }
 .range{
-    width: 342px;
-    height: 16px;
     background-color:pink;
     border-radius: 10px;
+    height: 16px;
+    width: 342px;
 }
 
 .top-container{
+	align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    color: var(--background-color);
+    display: flex;
+    font-size: 20px;
+	font-size: 32px;
+	font-weight: bold;
+    height: 75px;
     margin-left: 960px;
     margin-top: 289px;
     position: absolute;
-    width: 181px;
-    height: 75px;
-    background-color: white;
-    text-align: center;
-    font-size: 20px;
-    color: var(--background-color);
     padding: 22px;
-    border-radius: 10px;
-    display: flex;
-	align-items: center;
-	font-size: 32px;
-	font-weight: bold;
+    width: 181px;
 	padding: 15px 20px;
+    text-align: center;
 }
 
 
