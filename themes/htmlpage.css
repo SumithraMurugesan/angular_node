@@ -1,0 +1,44 @@
+body {
+
+    background-image: url(../images/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+a:hover {
+    color: blue;
+}
+.html-fld {
+    text-align: center;
+}
+h1 {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+div {
+    padding-bottom: 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+button {
+    align-items: right;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 1040px;
+    opacity: 70%;
+    width: 100px;
+}
