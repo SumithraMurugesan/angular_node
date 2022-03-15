@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
-
 :root{
     --background-color: hsl(229, 57%, 11%);
     --Dark-Blue: hsl(228, 56%, 26%);
@@ -8,11 +6,6 @@
     --Grayish-Blue: hsl(229, 7%, 55%);
     --Pale-Blue: hsl(243, 100%, 93%);
 }
-
-
-
-
-
 body{
     background-color:var(--background-color);
     background-image: url(..//fylo-data-storage-component-master/images/bg-desktop.png);
@@ -25,17 +18,14 @@ body{
     text-align: left;
     width: 100%;
 }
-
 *{
     box-sizing: border-box;
     padding: 0;
     margin:0;
 }
-
 html,body{
     overflow-x: hidden;
 }
-
 .logo-container{
     background-color: var(--Dark-Blue);
     border-radius: 10px 100px 10px 10px;
@@ -51,8 +41,6 @@ html,body{
     margin-left: 35px;
     margin-top:38px;
 }
-
-
 .folder-container img{
     background-color: var(--background-color);
     background-position: center;
@@ -63,7 +51,6 @@ html,body{
     padding: 9px;
     width: 50px;
 }
-
 .range-container{
     background-color: var(--Dark-Blue);
     border-radius: 10px;
@@ -91,9 +78,9 @@ html,body{
     width: 458px;
 }
  p{
-            color: var(--Pale-Blue);
-            margin-left: 35px;
-            word-spacing: 382px;
+    color: var(--Pale-Blue);
+    margin-left: 35px;
+    word-spacing: 382px;
             
 }
 .range{
@@ -102,7 +89,6 @@ html,body{
     height: 16px;
     width: 342px;
 }
-
 .top-container{
 	align-items: center;
     background-color: white;
@@ -121,8 +107,6 @@ html,body{
 	padding: 15px 20px;
     text-align: center;
 }
-
-
 .dot{
     height: 15px;
     width: 12px;
@@ -139,7 +123,6 @@ html,body{
 	text-transform: uppercase;
     font-size: 15px;
 }
-
 .top-container:before {
 	content: "";
 	position: absolute;

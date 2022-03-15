@@ -1,164 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
-:root{
-    --background-color:hsl(0, 0%, 81%);
-    --container-box-shadow:-2px 10px 24px -11px rgba(0,0,0,0.62);
-    --main-font:"Barlow Semi Condensed",sans-serif;
+:root {
     --Moderate-violet: hsl(263, 55%, 52%);
     --Very-dark-grayish-blue: hsl(217, 19%, 35%);
     --Very-dark-blackish-blue: hsl(219, 29%, 14%);
     --White: hsl(0, 0%, 100%);
-
+    --Light-gray: hsl(0, 0%, 81%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+    --ff: "Barlow Semi Condensed", sans-serif;
+    --fw-400: 500;
+    --fw-700: 600;
+    --fs-300: 0.6875rem;
+    --fs-400: 0.8125rem;
+    --fs-500: 1.25rem;
 }
-body{
-    background-color: var(--background-color);
-    background-repeat: no-repeat;
-    background-size: contain;
-    font-size: 13px;
+body {
+    background: var(--Light-gray);
+    display: grid;
+    font-family: var(--ff);
+    font-weight: var(--fw-400);
     min-height: 100vh;
-    overflow-y: scroll;
-    text-align: left;
+    place-content: center;
 }
-*{
-    padding: 0;
-    box-sizing: border-box;
-    margin:0;
+h1,
+h2,
+h3 {
+    font-weight: var(--fw-700);
+    margin: 0;
 }
-html,body{
-    overflow-x: hidden;
-    text-align: left;
+img,
+picture {
+    display: block;
+    max-width: 100%;
+    margin-right: 1rem;
 }
-.top-left-container{
-    background-image: url(..//testimonials-grid-section-main/images/bg-pattern-quotation.svg);
-    background-color: var(--Moderate-violet);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-position-x: 300px;
-    background-position-y: 0px;
-    border-radius: 10px;
-    box-shadow: var(--container-box-shadow);
-    color: white;
-    float: left;
-    font-family: var(--main-font);
-    height: 279px;
-    justify-content: center;
-    overflow: hidden; 
-    margin-top:100px;
-    margin-bottom: 25px;
-    margin-left: 166px;
-    position: relative;
-    padding: 25px;
-    text-align:left;
-    -webkit-box-shadow:var(--container-box-shadow);
-    -moz-box-shadow:var(--container-box-shadow);
-    width: 542px;
-}
-.top-center-container{
-    position: relative;
-    box-shadow: var(--container-box-shadow);
-    background-color: var(--Very-dark-grayish-blue);
-    border-radius: 10px;
-    font-family: var(--main-font);
-    float: left;
-    height: 279px;
-    justify-content: center;
-    margin-top:100px;
-    margin-bottom: 25px;
-    margin-right: 25px;
-    margin-left: 25px;
-    overflow: hidden; 
-    padding: 25px;
-    text-align: left;
-    -webkit-box-shadow:var(--container-box-shadow);
-    -moz-box-shadow:var(--container-box-shadow);
-    width: 255px;
-
-color:white
-}
-.right-container{
-
-    background-color: var(--White);
-    border-radius: 10px;
-    box-shadow: var(--container-box-shadow);
-    color: black;
-    font-family: var(--main-font);
-    justify-content: center;
-    height: 566px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: left;
-    position: relative;
-    padding: 25px;
-    overflow: hidden; 
-    text-align: left;
-    -webkit-box-shadow:var(--container-box-shadow);
-    -moz-box-shadow:var(--container-box-shadow);
-    width: 261px;
-}
-.bottom-left-container{
-
-    background-color: var(--White);
-    border-radius: 10px;
-    box-shadow: var(--container-box-shadow);
-    color:black;
-    float: left;
-    font-family: var(--main-font);
-    height: 266px;
-    justify-content: center;
-    margin-bottom: 100px;
-    margin-left: 165px;
-    overflow: hidden; 
-    padding: 25px;
-    position: relative;
-    text-align: left;
-    width: 257px;
-    -webkit-box-shadow:var(--container-box-shadow);
-    -moz-box-shadow:var(--container-box-shadow);
-}
-.bottom-center-container{
-    background-color: var(--Very-dark-blackish-blue);
-    box-shadow: var(--container-box-shadow);
-    border-radius: 10px;
-    color: white;
-    font-family: var(--main-font);
-    float: left;
-    height: 264px;
-    justify-content: center;
-    margin-bottom: 100px;
-    margin-left: 25px;
-    margin-right: 25px;
-    overflow: hidden; 
-    position: relative;
-    padding: 25px;
-    width: 538px;
-    -webkit-box-shadow:var(--container-box-shadow);
-    -moz-box-shadow:var(--container-box-shadow);
-
-}
-img{
-    border-radius: 50%;
+.flex {
     display: flex;
-    float: left;
 }
-
-header h2{
+.bg-primary-400 {
+    background-color: var(--Moderate-violet);
+}
+.bg-secondary-400 {
+    background: var(--Very-dark-grayish-blue);
+}
+.bg-alternative-100 {
+    background: var(--Very-dark-blackish-blue)
+}
+.bg-neutral-100 {
+    background: var(--White);
+}
+.text-neutral-100 {
     color: var(--White);
-    font-family: var(--main-font);
-    font-size: 13px;
-    margin-left:4rem;
-
 }
-.subhead{
-    font-family: var(--main-font);
-
-    margin-left: 4rem;
-    opacity: 50%;
-    padding-bottom:  30px;
+.text-secondary-400 {
+    color: var(--Very-dark-blackish-blue)
 }
-p{
-    color: white;
-    font-family: var(--main-font);
-    opacity: 70%;
-    margin-top: 1rem;
+.grid-col-span-2 {
+    grid-column: span 2;
 }
-
-
+.testimonial-grid {
+    gap: 1.5rem;
+    margin: auto;
+    width: 90%;
+}
+.testimonial {
+    border-radius: 0.5rem;
+    font-size: var(--fs-400);
+    padding: 2rem;
+}
+.testimonial.quote {
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 10%;
+}
+.testimonial .name {
+    font-size: var(--fs-400);
+    font-weight: var(--fw-400);
+    line-height: 1;
+    margin-bottom: 0;
+}
+.testimonial .position {
+    font-size: var(--fs-300);
+    opacity: 0.5;
+    margin-top: 0;
+}
+.testimonial>p:first-of-type {
+    font-size: var(--fs-500);
+    line-height: 1.2;
+}
+.testimonial>p:last-of-type {
+    opacity: 0.7;
+}
+.testimonial img {
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: white solid 1px;
+    width: 1.75rem;
+}
+.testimonial:last-child {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+@media (min-width: 1200px) {
+    .testimonial-grid {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(4, 1fr);
+        margin: auto;
+        width: 80%;
+    }
+}
+@media (max-width: 1200px) {
+    .testimonial {
+        margin: 2em 0;
+    }
+}

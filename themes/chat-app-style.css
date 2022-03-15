@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
   }
-  
   body {
     align-items: center;
     background-color: hsl(270, 20%, 96%);
@@ -13,7 +12,6 @@
     height: 100vh;
     justify-content: center;
   }
-  
   .phone {
     border-radius: 20px;
     background-color: white;
@@ -24,9 +22,7 @@
     margin-bottom: 40px;
     padding: 10px;
     width: 210px;
-
   }
-  
   .phone-header {
     background-image: linear-gradient(
       to right,
@@ -37,7 +33,6 @@
     height: 60px;
     width: 100%;
   }
-  
   .phone-header-camera {
     background-color: white;
     border-radius: 0px 0px 30px 30px;
@@ -45,7 +40,6 @@
     margin: auto;
     width: 130px;
   }
-  
   .phone-header-description {
     align-items: center;
     color: white;
@@ -53,53 +47,42 @@
     justify-content: space-between;
     height: 40px;
     width: 100%;
-
   }
-  
   .phone-header-left {
     display: flex;
     justify-content: space-around;
     width: 65%;
   }
-  
   .uil-ellipsis-v {
     margin-right: 15px;
   }
-  
   .phone-header-description .uil-angle-left {
     font-size: 20px;
   }
-  
   .phone-header-description img {
     border: 1px solid white;
     border-radius: 50px;
     width: 25px;
   }
-  
   .name {
     font-size: 12px;
   }
-  
   .availability {
     font-size: 8px;
     color: lightgray;
   }
-  
   .phone-body {
     border-radius: 0px 0px 20px 20px;
     background-color: hsl(270, 20%, 96%);
     flex-grow: 1;
     overflow: auto;
     width: 100%;
-
   }
-  
   .phone-body .message {
     display: inline-block;
     font-size: 8px;
     margin-top: 7px;
   }
-  
   .phone-body .left p {
     background-color: hsl(0, 14%, 91%);
     border-radius: 10px 10px 10px 5px;
@@ -107,33 +90,28 @@
     margin-left: 10px;
     padding: 7px;
   }
-  
   .phone-body .right {
     display: flex;
     justify-content: flex-end;
     width: 100%;
   }
-  
   .pictures {
     display: flex;
     margin-top: 7px;
     justify-content: flex-end;
     width: 100%;
   }
-  
   .pictures img {
     border-radius: 10px;
     margin-right: 10px;
     width: 38px;
   }
-  
   .phone-body .right p {
     background-color: white;
     border-radius: 10px 10px 5px 10px;
     padding: 7px;
     margin-right: 10px;
   }
-  
   .payment {
     align-items: center;
     background-image: linear-gradient(
@@ -155,21 +133,17 @@
     display: flex;
     width: 80%;
   }
-  
   .payment-left i {
     color: hsl(270, 20%, 96%);
   }
-  
   .payment p {
     font-size: 8px;
     margin-left: 5px;
   }
-  
   .payment .amount {
     font-size: 14px;
     font-weight: 700;
   }
-  
   .type-message {
     align-items: center;
     background-color: white;
@@ -181,13 +155,11 @@
     margin-top: 20px;
     width: 90%;
   }
-  
   .type-message p {
     color: lightgray;
     font-size: 10px;
     margin-left: 15px;
   }
-  
   .type-message .send {
     align-items: center;
     background-color: hsl(271, 36%, 24%);
@@ -199,22 +171,18 @@
     margin-right: 5px;
     width: 30px;
   }
-  
   .type-message .send i {
     color: white;
   }
-  
   .description-head,
   .description-text {
     text-align: center;
   }
-  
   .description-head {
     color: hsl(271, 36%, 24%);
     font-weight: 500;
     margin-bottom: 20px;
   }
-  
   .description-text {
     color: hsl(270, 7%, 64%);
     font-size: 14px;
@@ -222,7 +190,6 @@
     margin: auto;
     width: 70%;
   }
-  
   .purpleBody {
     align-self: flex-start;
     background-image: linear-gradient(
@@ -238,7 +205,6 @@
     width: 50%;
     z-index: -1;
   }
-  
   .greybody {
     align-self: flex-start;
     background-color: hsl(0, 14%, 91%);
@@ -250,31 +216,25 @@
     width: 50%;
     z-index: -1;
   }
-  
   @media only screen and (min-width: 1000px) {
     body {
       flex-direction: row;
     }
-  
     .description {
       margin-left: 100px;
     }
-  
     .description-head {
       text-align: left;
     }
-  
     .description-text {
       text-align: left;
       width: 400px;
     }
-  
     .purpleBody {
       border-radius: 0 0 1000px 1000px;
       height: 550px;
       width: 25%;
     }
-  
     .greybody {
       height: 550px;
       width: 25%;
